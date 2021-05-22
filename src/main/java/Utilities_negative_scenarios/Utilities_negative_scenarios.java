@@ -254,7 +254,7 @@ public class Utilities_negative_scenarios  extends Generic_function{
 			browser_wait(40);
 			click("award_points");
 			click("awardpoints_redeem_button");
-			value = driver.findElement(By.xpath(OR_reader("Object_Locator", "redeem_points"))).isEnabled();
+			//value = driver.findElement(By.xpath(OR_reader("Object_Locator", "redeem_points"))).isEnabled();
 			//Assert.assertEquals(true,value);
 			click("utilities");
 			System.out.println("Utilities -");
